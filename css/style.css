@@ -1,0 +1,54 @@
+/* */
+.menu img{
+
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 50%;
+
+
+}
+
+/*_____Sobre mi_________*/
+body{
+font-family: 'Raleway', sans-serif;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.info img{
+	margin-top: 20pt;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+body p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bajada img{
+	width: 30%;
+	position: relative;
+	z-index: 1;
+
+}
+
+button{
+	
+	width: 14em;
+	height: 3em;
+
+	font-size: 13pt;
+}
+.button d_curriculum{
+	background: #00C1FF;
+
+}
+
+.skins{
+	margin-bottom: 50px;
+}
+
+
