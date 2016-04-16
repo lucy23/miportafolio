@@ -1,54 +1,324 @@
-/* */
-.menu img{
+/* Página*/
 
-	width: 30%;
-	margin-left: 35%;
-	margin-right: 50%;
+header{
+
+font-family: 'Slabo 13px', serif;
+letter-spacing: 1em;
+
+	display: flex;
+
+}
+header h1{
+	color: blue;
+	font-size: 5em;
+	margin-top: 70px;
+}
+header img{
+	width: 25%;
+	height: 25%;
+}
+
+.cuerpo{
+	margin-left: 20em;
+	margin: 10px 20px 20px 280px;
+	margin-bottom: 3em;
+
+}
+
+
+
+.h1GS{
+	margin-top: -5px;
+	color:blue;
+	font-family: 'Slabo 13px', serif;
+	font-size: 40pt;
+
 
 
 }
 
-/*_____Sobre mi_________*/
-body{
-font-family: 'Raleway', sans-serif;
-margin-left: 10px;
-margin-right: 10px;
-
-}
-
-.info img{
-	margin-top: 20pt;
-	margin-left: 10%;
-	margin-right: 10%;
-
-}
-
-body p{
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-.bajada img{
-	width: 30%;
-	position: relative;
-	z-index: 1;
-
-}
-
-button{
+.cuerpo h1.h1GS {
 	
-	width: 14em;
-	height: 3em;
-
-	font-size: 13pt;
-}
-.button d_curriculum{
-	background: #00C1FF;
-
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
-.skins{
-	margin-bottom: 50px;
+
+/* Navegación*/
+nav {
+	position: fixed;
+	background-color: #dceaf1;
+	font-family: 'Raleway 20px', serif;
+	font-size: 15px;
+	top: 19em;
+	min-width: 12em;
+	max-width: 15em;
+	width: 20%;
+	border-radius: 4px;
+}
+.nav a{
+	color:blue;
+	text-decoration: none;
+}
+.nav a:visited{
+ 	color: blue;
+}
+.nav a:hover{
+	color: #ef7a20;
+
+}
+ul {
+
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0;
+	margin-left: 3em;
+
 }
 
+ul li {
+	font-size: 1em;
+	margin: 1em 0 0 0;
+	font-weight: bold;
+
+	
+
+}
+
+nav ul li {
+	padding-bottom: 1em;
+}
+
+/* Tipografía*/
+
+
+.headers{
+	font-family: 'Slabo 13px', serif;
+
+}
+h1 {
+	font-size: 2.5em;
+
+}
+
+h2 {
+	font-size: 2.3em;
+
+}
+h3 {
+	font-size: 2em;
+	
+}
+h4 {
+	font-size: 1.7em;
+
+}
+
+h5 {
+	font-size: 1.4em;
+	
+}
+
+h6 {
+	font-size: 1em;
+	
+}
+
+
+
+section{
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	
+}
+dt{
+	font-family: 'Slabo 13px', serif;
+}
+
+
+
+
+
+
+
+/* Colores*/
+
+.colores{
+	margin-top: 1em;
+	margin-bottom: 4em;
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	justify-content: center;
+
+	
+	 
+	
+
+
+}
+.circulo_azul {
+
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background:#00C0FF;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	margin: 10px;
+	 
+}
+
+.circulo_azul_claro {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background:#81dde9;    
+    display: flex;
+	position: relative;
+	margin: 10px;
+	  justify-content: center;
+    	align-items: center;
+}
+.circulo_gris {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background:#d1d3d4;    
+    display: flex;
+	position: relative;
+	margin: 10px;
+	  justify-content: center;
+    	align-items: center;
+}
+
+.circulo_verde {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background:#bcffff;    
+    display: flex;
+	position: relative;
+	margin: 10px;
+	justify-content: center;
+    	align-items: center;
+}
+
+.circulo_verde_oscuro {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background:#93f3c7;    
+    display: flex;
+	position: relative;
+	margin: 10px;
+	justify-content: center;
+    	align-items: center;
+}
+/*Botones*/
+
+.contenedor_botones{
+	margin:50px;
+	margin-top: 50px;
+}
+
+
+
+.buttondisabled{
+	background-color:#D1D3D4;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family:'Raleway', serif;
+	font-size: 20px;
+	box-shadow: grey 0px 3px 5px;
+	border-radius: 4px;
+height: 50px;
+	width:230px;
+
+}
+.buttonChange{
+	background-color:white;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family:'Raleway', serif;
+	font-size: 20px;
+	box-shadow: grey 0px 3px 5px;
+	border-radius: 4px;
+	width: 230px;
+	height: 50px;
+}
+.buttonChange:hover{
+	background-color: #00C0FF;
+}
+/*Iconos*/
+.iconos_portafolio img{
+	
+	width: 5em;
+	margin:20px 10px 50px;
+}
+
+/*Formulario*/
+.formulario{
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+input{
+	background:#D1D3D4;
+	margin: 5px;
+	border:1px solid #00C0FF;
+	height: 25px;
+
+
+}
+input:focus{
+	background:#D1D3D4;
+	margin: 5px;
+	border:1px solid black;
+
+}
+
+textarea{
+	background:#D1D3D4;
+	margin: 5px;
+	border:1px solid #00C0FF;
+	font-family:'Raleway', serif;
+	
+}
+textarea:focus{
+	background:#D1D3D4;
+	margin: 5px;
+	border:1px solid black;
+}
+.estilo-button{
+	background-color: #00C0FF;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family:'Raleway', serif;
+	font-size: 18px;
+	box-shadow: grey 0px 3px 5px;
+	border-radius: 4px;
+	width: 230px;
+
+	height: 50px;
+}
 
