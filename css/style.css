@@ -8,47 +8,234 @@
 
 }
 
+footer{
+	background-image: url("../img/footer.png");
+	width: 100%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	font-size: 9pt;
+	padding: 5pt;
+
+
+}
+
+footer p{
+	margin-right: 20px;
+}
+
 /*_____Sobre mi_________*/
 body{
 font-family: 'Raleway', sans-serif;
-margin-left: 10px;
-margin-right: 10px;
+margin-left: 20px;
+margin-right: 20px;
+
 
 }
+
+
+.sobremi{
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin:  10% 10% 20% 10%;
+	
+
+}
+
 
 .info img{
 	margin-top: 20pt;
-	margin-left: 10%;
+	margin-left: 5%;
 	margin-right: 10%;
+	width: 90%;
 
 }
 
-body p{
-	margin-left: 50px;
-	margin-right: 50px;
+.bajada{
+	background-color: red;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	
+	width: 100%;
+
 }
 
 .bajada img{
 	width: 30%;
-	position: relative;
+	
 	z-index: 1;
 
+	
+	margin:0px;
+
+
+	
+
+
+}
+
+/*_______________ Botones _______________*/
+
+.buttons{
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
 }
 
 button{
 	
 	width: 14em;
 	height: 3em;
+	background-color: #00C0FF;
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #DCEAF1;
+	border-radius: 3px;
+	color: black;
+	font-family:'Raleway', serif;
+	font-size: 18px;
+	box-shadow: grey 0px 3px 5px;
 
-	font-size: 13pt;
 }
 .button d_curriculum{
 	background: #00C1FF;
 
+
+}
+
+/*_______________ Skins __________________*/
+
+.skins{
+	display: flex;
+	flex-direction:column;
+	margin: 10%;
+	margin-bottom: 50px;
+
+}
+
+.skins li{
+	padding: 10px;
+
+}
+
+.skins ul p{
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+.s1{
+	
+	margin-top: 20%;
+	background-image: url("../img/p1.png");
+	background-size: 400px;
+	background-origin:border-box;
+
+
+ 
+
+
+
+}
+
+ul.flor { 
+	list-style-image: url("../img/flor.png"); 
+}
+
+.s2{
+
+	margin-top: 20%;
+}
+.s3{
+	
+	margin-top: 20%;
+}
+.s4{
+	
+	margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+body{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.info_foto_texto{
+	background-color: yellow;
+	width: 100%;
+	display: flex;
+
+}
+
+.info img{
+	margin-top: 10rem;
+	
+	width: 40%;
+	height: 40%;
+}
+
+.sobremi{
+	background-color: blue;
+	height: 100%;
+	width: 100%;
+	
+
 }
 
 .skins{
-	margin-bottom: 50px;
+	
+
+	margin-right: 30%;
+		margin-left: 30%;
+
+	
 }
 
+.buttons{
+	
+		display: flex;
+		flex-direction: row;
+
+		justify-content: center;
+	
+	
+	
+	}
+.bajada{
+	width: 40%;
+
+		margin-left: 30%;
+		margin-right: 30%;
+
+	}
+
+}
+@media screen and (min-width: 1024px) {
+	body{
+		margin-right: 10%;
+		margin-left: 10%;
+	}	
+
+
+	.skins{
+	
+		margin-right: 40%;
+		margin-left: 40%;
+	}
+}
 
