@@ -1,0 +1,36 @@
+{
+  "name": "miportafolio",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucy23/miportafolio.git"
+  },
+  "author": "lucy sigler",
+  "license": "ISC",
+  "devDependencies": {
+    "beepbeep": "^1.2.0",
+    "colors": "^1.1.2",
+    "gh-pages": "^0.11.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.12.3",
+    "default": "^0.1.1",
+    "gulp-concat": "^2.6.0",
+    "imagemin": "^4.0.0",
+    "imagemin-pngquant": "^4.2.2"
+  },
+  "description": "mi portafolio bau",
+  "bugs": {
+    "url": "https://github.com/lucy23/miportafolio/issues"
+  },
+  "homepage": "https://github.com/lucy23/miportafolio#readme"
+}
