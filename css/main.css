@@ -1,13 +1,37 @@
 footer {
-  background-image: url("img/footer_web.png");
-  background-repeat: contain;
+  background-image: url(../../img/footer_web.png);
   width: 100%;
-  height: 100%;
-  background-color: pink; }
+  height: 650px;
+  font-size: 12pt;
+  z-index: -1;
+  position: relative; }
+  footer .direcciones {
+    position: absolute;
+    right: 0;
+    padding-top: 200px;
+    text-align: right;
+    z-index: 2;
+    margin-top: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10pt; }
 
 body {
   background-color: white;
-  font-family: Raleway, sans-serif; }
+  font-family: Raleway, sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  line-height: 20pt; }
+  body h1 {
+    font-size: 1.5rem; }
 
 /*Formulario portafolio*/
 .contacto {
@@ -65,3 +89,181 @@ textarea:focus {
   border-radius: 4px;
   width: 230px;
   height: 50px; }
+
+footer {
+  background-image: url(../../img/footer_web.png);
+  width: 100%;
+  height: 650px;
+  font-size: 12pt;
+  z-index: -1;
+  position: relative; }
+  footer .direcciones {
+    position: absolute;
+    right: 0;
+    padding-top: 200px;
+    text-align: right;
+    z-index: 2;
+    margin-top: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10pt; }
+
+body {
+  background-color: white;
+  font-family: Raleway, sans-serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  line-height: 20pt; }
+  body h1 {
+    font-size: 1.5rem; }
+
+/*Formulario portafolio*/
+.contacto {
+  background-color: yellow;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.formulario {
+  font-size: 18px;
+  margin-top: 2rem; }
+
+input {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid #00C0FF;
+  height: 40px; }
+
+input:focus {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid black; }
+
+textarea {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid #00C0FF;
+  font-family: 'Raleway', serif; }
+
+textarea:focus {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid black; }
+
+.estilo-button {
+  background-color: #00C0FF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #DCEAF1;
+  border-radius: 3px;
+  color: black;
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  box-shadow: grey 0px 3px 5px;
+  border-radius: 4px;
+  width: 230px;
+  height: 50px; }
+
+.info_foto_texto {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+img {
+  margin-top: 5px;
+  height: 100%;
+  width: 100%; }
+
+.skins {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.menu img {
+  width: 35%;
+  margin-left: 35%;
+  margin-right: 50%; }
+
+.buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+button {
+  width: 14em;
+  height: 3em;
+  background-color: #00C0FF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #DCEAF1;
+  border-radius: 3px;
+  color: black;
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  box-shadow: grey 0px 3px 5px; }
+
+.bajada {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .bajada .d_curriculum {
+    background: #00C1FF;
+    height: 100%;
+    width: 100%; }
