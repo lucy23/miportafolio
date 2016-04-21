@@ -1,0 +1,67 @@
+footer {
+  background-image: url("img/footer_web.png");
+  background-repeat: contain;
+  width: 100%;
+  height: 100%;
+  background-color: pink; }
+
+body {
+  background-color: white;
+  font-family: Raleway, sans-serif; }
+
+/*Formulario portafolio*/
+.contacto {
+  background-color: yellow;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.formulario {
+  font-size: 18px;
+  margin-top: 2rem; }
+
+input {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid #00C0FF;
+  height: 40px; }
+
+input:focus {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid black; }
+
+textarea {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid #00C0FF;
+  font-family: 'Raleway', serif; }
+
+textarea:focus {
+  background: #D1D3D4;
+  margin: 5px;
+  border: 1px solid black; }
+
+.estilo-button {
+  background-color: #00C0FF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #DCEAF1;
+  border-radius: 3px;
+  color: black;
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  box-shadow: grey 0px 3px 5px;
+  border-radius: 4px;
+  width: 230px;
+  height: 50px; }
