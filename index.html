@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <head>
 	<title>Lucy Sigler Portafolio</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
@@ -12,6 +12,25 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+	    $(function() {
+
+	        var btn_movil = $('#nav-mobile'),
+	            menu = $('#menu').find('ul');
+
+	        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+	        btn_movil.on('click', function (e) {
+	            e.preventDefault();
+
+	            var el = $(this);
+
+	            el.toggleClass('nav-active');
+	            menu.toggleClass('open-menu');
+	        })
+
+	    });
+	</script>
 
 </head>
 <body>
@@ -20,11 +39,19 @@
 <!-- MENU-->
 	<div class="menu">
 			<img SRC="img/logo.png">
-			<nav>
-				<a href="index.html">Sobre mi</a>
-				<a href="portafolio.html">Portafolio</a> 
+			<nav id="menuDesktop" ><a class="nav_menuDesktop" id="nav_menuDesktop" href="#"></a>
+				<a href="index.html">Sobre mi</a> /
+				<a href="portafolio.html">Portafolio</a> /
 				<a href="contacto.html">Contacto</a>
-			</nav>             
+			</nav> 
+			 <nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Sobre mi</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>           
 
 		</div>
 
