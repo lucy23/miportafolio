@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucy Sigler Portafolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+
+			var btn_movil = $('#nav-mobile'),
+			menu = $('#menu').find('ul');
+
+	        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+	        btn_movil.on('click', function (e) {
+	        	e.preventDefault();
+
+	        	var el = $(this);
+
+	        	el.toggleClass('nav-active');
+	        	menu.toggleClass('open-menu');
+	        })
+
+	    });
+	</script>
+
+</head>
+
+<body>
+	<!-- MENU-->
+	<div class="menu">
+		<a href="index.html"><img SRC="img/logo.png"></a>
+		<nav id="menuDesktop" ><a class="menuDesktop" id="nav_menuDesktop" href="#"></a>
+			<a href="sobremi.html">Sobre mi</a> /
+			<a href="portafolio.html">Portafolio</a> /
+			<a href="contacto.html">Contacto</a>
+		</nav> 
+		<nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobremi.html">Sobre mi</a></li>
+				<li><a href="portafolio.html">Portafolio</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>           
+
+	</div>
+
+
+	<!-- pagina-->
+
+<div class="migadepan">
+<p id="breadcrumb">
+  <a href="index.html">Home</a>
+ <a href="portafolio.html">Portafolio</a>
+  <a href="letering.html">Krunchy B</a>
+  
+ 
+	</ul></div>
+
+
+	<div class="contenedor_ficha">
+
+
+
+		<img src="img/letering.png">
+
+	<div class="texto_exp">	
+	<h1>Krunchy B</h1>
+	<p>
+		<p>Letering realizado a mano para hacer un logo para una barrita de cereales infantil muy salvaje.</p>
+	</div>
+		
+	</div>
+
+
+<footer>
+	<div class="info_footer">
+			<p>Móvil: 627295627</p>
+			<p>Email: lucysigler23@gmail.com</p>
+			</div>
+</footer>
+</body>
+
+</html>

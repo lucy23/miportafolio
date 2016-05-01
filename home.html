@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Porfolio Lucy Sigler</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			$(function() {
+
+				var btn_movil = $('#nav-mobile'),
+				menu = $('#menu').find('ul');
+
+		        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+		        btn_movil.on('click', function (e) {
+		        	e.preventDefault();
+
+		        	var el = $(this);
+
+		        	el.toggleClass('nav-active');
+		        	menu.toggleClass('open-menu');
+		        })
+
+		    });
+		</script>
+	
+</head>
+<body>
+
+
+
+
+<body>
+	<!-- MENU-->
+	<div class="menu">
+		
+		<nav id="menuDesktop" ><a class="menuDesktop" id="nav_menuDesktop" href="#"></a>
+			<a href="sobremi.html">Sobre mi</a> /
+			<a href="portafolio.html">Portafolio</a> /
+			<a href="contacto.html">Contacto</a>
+		</nav> 
+		<nav id="menu"><a class="nav-mobile" id="nav-mobile" href="#"></a>
+			<ul>
+				
+				<li><a href="sobremi.html">Sobre mi</a></li>
+				<li><a href="portafolio.html">Portafolio</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>           
+
+	</div>
+
+
+
+
+	<div class="img_home">
+		<img src="img/home-03.png">
+
+	</div>	
+
+<!-- 
+	<div class="menu_home">
+		
+        <li><a href="index.html">Sobre mi</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+
+	</div> -->
+</body>
+</html>
