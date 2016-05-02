@@ -1,6 +1,6 @@
 @charset "UTF-8";
 footer {
-  background-image: url(../../img/portafolio_movil.png);
+  background-image: url(../img/portafolio_movil.png);
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -11,7 +11,7 @@ footer {
   @media screen and (min-width: 768px) {
     footer {
       margin-top: -150px;
-      background-image: url(../../img/footer_web.png); } }
+      background-image: url(../img/footer_web.png); } }
   @media screen and (min-width: 960px) {
     footer {
       width: 100%;
@@ -119,7 +119,7 @@ textarea:focus {
   height: 50px; }
 
 footer {
-  background-image: url(../../img/portafolio_movil.png);
+  background-image: url(../img/portafolio_movil.png);
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -130,7 +130,7 @@ footer {
   @media screen and (min-width: 768px) {
     footer {
       margin-top: -150px;
-      background-image: url(../../img/footer_web.png); } }
+      background-image: url(../img/footer_web.png); } }
   @media screen and (min-width: 960px) {
     footer {
       width: 100%;
